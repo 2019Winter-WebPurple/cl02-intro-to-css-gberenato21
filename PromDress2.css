@@ -1,0 +1,36 @@
+/*
+* Grace Berenato
+* 5 March 2019
+* Prom Dress 
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body attributes here */
+
+body {
+    width: 80%;
+    margin: auto;
+    background-color: cornsilk;
+    font-family: monospace, sans-serif;
+}
+h1 {
+    background-color: cadetblue; /* color for background */
+    color: azure; /* color of text */
+}
+
+p { /* type selector for ALL paragraphs */
+    color: cornflowerblue;
+}
+
+#redText { /* use an id to change test to red */
+    color: red;
+}
+
+.greenText { /* use a class to change text to green */
+    color: green;
+}
